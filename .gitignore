@@ -12,3 +12,5 @@
 .DS_Store
 .env
 .log
+.ruby-gemset
+.ruby-version
