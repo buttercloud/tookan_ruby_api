@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "tookan_ruby_api"
+require "tookan"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
