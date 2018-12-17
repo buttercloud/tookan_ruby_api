@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Initialize the class
+
+    c = Tookan::Client.new
+
+Use any of the endpoints in the API as Ruby methods. Any data required by the endpoint can be passed as a Ruby hash in the first argument.
+    
+    c.get_tasks_details({ job_id: “25753278” })
+    # OR
+    c.get_available_agents
 
 ## Development
 
