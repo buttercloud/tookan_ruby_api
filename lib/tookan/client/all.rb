@@ -38,6 +38,7 @@ module Tookan
                       update_team
                       delete_team
                       view_teams
+                      view_all_team_only
                       get_job_and_fleet_details
                       add_manager
                       view_all_manager
