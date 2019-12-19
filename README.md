@@ -9,16 +9,12 @@ Tookan API Docs: https://tookanapi.docs.apiary.io/
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tookan_ruby_api'
+gem 'tookan_ruby_api', github: "buttercloud/tookan_ruby_api", branch: "master"
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install tookan_ruby_api
 
 ## Usage
 
