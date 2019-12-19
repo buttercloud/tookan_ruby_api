@@ -4,6 +4,7 @@ require 'tookan/configuration'
 require 'tookan/error'
 require 'tookan/api'
 require 'tookan/client'
+require 'tookan/globals'
 
 module Tookan
   extend Configuration
