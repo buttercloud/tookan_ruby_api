@@ -5,10 +5,11 @@ module Tookan
                       create_multiple_tasks
                       import_bulk_tasks_csv
                       create_task_for_form_user
-                      get_task_details
-                      get_task_details_by_order_id
+                      get_job_details
+                      get_job_details_by_order_id
                       edit_task
                       edit_multiple_tasks
+                      change_job_date
                       delete_task
                       update_task_status
                       start_task
@@ -16,14 +17,18 @@ module Tookan
                       assign_task
                       re_autoassign_task
                       get_all_tasks
+                      get_all_deleted_tasks
                       get_related_tasks
                       user_task_stats
-                      get_available_agents
+                      get_route_details_for_date
+                      get_fare_estimate
+                      get_all_fleets
                       add_agent
                       edit_agent
                       block_and_unblock_agent
                       delete_fleet_account
                       view_fleet_profile
+                      get_fleet_stripe_details
                       update_fleet_tags
                       get_fleet_tags
                       get_agent_duty_logs
@@ -31,6 +36,7 @@ module Tookan
                       send_notification
                       get_fleets_availability
                       fleet_activity_timeline
+                      fleet_ratings_and_reviews
                       assign_fleet_to_task
                       assign_fleet_to_related_tasks
                       reassign_open_tasks
@@ -50,10 +56,10 @@ module Tookan
                       find_customer_with_phone
                       find_customer_with_name
                       view_customer_profile
-                      register_new_user
                       edit_phone
                       users_change_password
                       check_email_exists
+                      get_user_details
                       merchant/sign_up
                       merchant/get_merchant
                       merchant/edit_merchant
@@ -69,9 +75,10 @@ module Tookan
                       add_region
                       edit_region
                       view_regions
-                      view_regions_only]  
+                      view_regions_only
                       remove_region_for_agent
                       remove_region
+                      find_region_from_points
                       create_mission_task
                       get_mission_list
                       delete_mission
